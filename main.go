@@ -7,9 +7,9 @@ func main() {
 	checkOddsAndEvens(n)
 }
 
-func createSlice() []int {
+func createSlice(t int) []int {
 	var n []int
-	for i := 0; i <= 10; i++ {
+	for i := 0; i <= t; i++ {
 		n = append(n, i)
 	}
 	return n
