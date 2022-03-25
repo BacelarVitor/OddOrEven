@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	n := createSlice()
+	n := createSlice(10)
 	checkOddsAndEvens(n)
 }
 
